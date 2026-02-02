@@ -105,18 +105,18 @@ const Movies = () => {
                   <Card.Body className="d-flex flex-column p-2">
                     <div className="mb-2">
                       <Card.Title className="fw-bold mb-0 text-truncate" style={{ fontSize: '0.9rem' }}>{movie.title}</Card.Title>
-                      <small className="text-success fw-bold text-uppercase" style={{ fontSize: '0.6rem', letterSpacing: '0.5px' }}>
+                      <small className="text-info fw-bold text-uppercase" style={{ fontSize: '0.6rem', letterSpacing: '0.5px' }}>
                         {movie.genre}
                       </small>
                     </div>
 
                     <div className="mb-2 mt-auto">
                       <div className="d-flex align-items-center gap-1 mb-1 opacity-75" style={{ fontSize: '0.7rem' }}>
-                        <FaUserTie className="text-success" size={10} />
+                        <FaUserTie className="text-primary" size={10} />
                         <span className="text-truncate">{movie.director}</span>
                       </div>
                       <div className="d-flex align-items-center gap-1 mb-1 opacity-75" style={{ fontSize: '0.7rem' }}>
-                        <FaCalendarAlt className="text-success" size={10} />
+                        <FaCalendarAlt className="text-primary" size={10} />
                         <span>{movie.year}</span>
                       </div>
                     </div>
